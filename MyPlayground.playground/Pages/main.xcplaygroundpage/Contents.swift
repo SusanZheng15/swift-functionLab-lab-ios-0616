@@ -13,6 +13,13 @@
  */
 // write your code here
 
+func helloWorld()
+{
+    print("Hello world!")
+}
+
+helloWorld()
+
 
 
 
@@ -21,6 +28,13 @@
  */
 // write your code here
 
+func constantString()
+{
+    let string = "Hello world!"
+    print(string)
+}
+
+constantString()
 
 
 
@@ -28,7 +42,14 @@
  ### 3. Write a function that takes a person's name as an argument and prints a greeting to the console. Call it several times with different arguments. What do you think you'll see in the console?
  */
 // write your code here
+func person(name: String)
+{
+    print("Greeting \(name)")
+}
 
+person("Susan")
+person("Dan")
+person("Jesse")
 
 
 
@@ -37,13 +58,32 @@
  */
 // write your code here
 
+let cat = "cat"
+person(cat)
 
+var pokemon = "pokemon"
+person(pokemon)
+
+pokemon = "pikachu"
+person(pokemon)
 
 
 /*: question5
  ### 5. Write your own function in which you declare a _variable_ (of any type) inside the function's body. Print out this variable to the console from within your function. After you print the variable once, assign it to a new variable on the next line. Print it again (after the line on which you assign it to a new value). Call your function several times. What do you expect to see printed to the playground's console each time you call this function?
  */
 // write your code here
+
+func iLoveSwift()
+{
+    var language = "Swift"
+    print (language)
+    var language2 = "Objective C"
+    print(language2)
+}
+
+iLoveSwift()
+iLoveSwift()
+iLoveSwift()
 
 
 
